@@ -1,0 +1,32 @@
+{
+  "name": "omi-web-admin-v2",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "Omi CRM",
+  "scripts": {
+    "dev": "next -p 4546",
+    "build": "next build",
+    "start": "next start -p 4546",
+    "prod": "next build && next start -p 4546"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@moxy/next-common-files": "^2.0.1",
+    "@mui/material": "^5.14.10",
+    "@mui/styles": "^5.14.10",
+    "classnames": "^2.3.2",
+    "json5": "^2.2.3",
+    "lodash": "^4.17.21",
+    "next": "12.3.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^10.0.5",
+    "vanilla-jsoneditor": "^0.23.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "webpack": "^5.74.0"
+  }
+}

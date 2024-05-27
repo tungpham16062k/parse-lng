@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@constants/*": ["./constants/*"],
+            "@containers/*": ["./containers/*"],
+            "@styles/*": ["./styles/*"]
+        }
+    }
+}
